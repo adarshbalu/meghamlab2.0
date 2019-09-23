@@ -9016,3 +9016,13 @@ li:first-child{
 ol,ul{
   list-style:none;
 }
+.ceo-text{
+  line-height:2.0;
+  color:#fff;
+  font-weight:600;
+  font-size:110%;
+  vertical-align:baseline;
+}
+.ceo-heading{
+  line-height: 1.0;
+}
