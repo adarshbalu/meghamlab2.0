@@ -8974,3 +8974,7 @@ textarea.form-control {
     margin-bottom: 30px;
     text-align:center;
 }
+.press-list-item{
+  padding:30px 0 27px
+}
+ol,ul{list-style:none;}
