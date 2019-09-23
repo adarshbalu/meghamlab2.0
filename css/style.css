@@ -8970,11 +8970,14 @@ textarea.form-control {
   padding-top:30px;
     margin-bottom: 30px;
     text-align:center;
+    
 }
 
 .press-list-item{
   padding:0;
-  text-transform:uppercase;
+  text-transform:capitalize;
+  line-height:2.5;
+  vertical-align:baseline;
 }
 
 .press-list{
@@ -8983,6 +8986,26 @@ textarea.form-control {
 .press-list-date{
 padding-right:10px;
 font-weight:bold;
+width:20px;
+}
+.press-button{
+  text-align:center;
+  display:inline-block;
+  border-radius:20px;
+  border: 1px solid rgb(59, 58, 58);
+  padding: 10px 60px;
+}
+.press-button :hover{
+  color: rgb(63, 60, 60);
+
+}
+li {
+  display: inline-block;
+box-sizing: border-box;
+content:"";
+width:100%;
+border-bottom: .5px solid rgb(206, 204, 204);
+padding-bottom:5px;
 }
 
 ol,ul{
