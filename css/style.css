@@ -8988,15 +8988,17 @@ padding-right:10px;
 font-weight:bold;
 width:20px;
 }
-.press-button{
+.press-button , .press-button:visited , .press-button:link{
+  
   text-align:center;
   display:inline-block;
-  border-radius:20px;
+  border-radius:30px;
   border: 1px solid rgb(59, 58, 58);
-  padding: 10px 60px;
+  padding: 15px 70px;
 }
-.press-button :hover{
-  color: rgb(63, 60, 60);
+.press-button:hover{
+  background-color: rgb(255, 255, 255);
+
 
 }
 li {
@@ -9006,8 +9008,11 @@ content:"";
 width:100%;
 border-bottom: .5px solid rgb(206, 204, 204);
 padding-bottom:5px;
+padding-top:5px;
 }
-
+li:first-child{
+  border-top: .5px solid rgb(206, 204, 204);
+}
 ol,ul{
   list-style:none;
 }
