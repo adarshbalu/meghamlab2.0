@@ -9019,7 +9019,7 @@ width:20px;
   border-radius: 35px;
 }
 
-li {
+.press-list li {
   display: inline-block;
 box-sizing: border-box;
 content:"";
@@ -9028,10 +9028,10 @@ border-bottom: .5px solid rgb(206, 204, 204);
 padding-bottom:5px;
 padding-top:5px;
 }
-li:first-child{
+.press-list li:first-child{
   border-top: .5px solid rgb(206, 204, 204);
 }
-ol,ul{
+.press-list ol,ul{
   list-style:none;
 }
 .ceo-text{
