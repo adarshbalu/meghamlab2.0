@@ -8966,71 +8966,7 @@ textarea.form-control {
 
 
 
-                    /*-----------Media Query---------------------------------------*/
 
-
-@media only screen and (max-width:576px){
-  .pressSection{
-    width:100%;
-    padding:10px;
-  }
-  .pressTitle{
-    font-size:150%;
-    padding-top:20px;
-    margin-bottom:20px;
-    
-  }
-  .press-list-item{
-    line-height: 1.2;
-  }
-  .press-list-date{
-    padding-right:0;
-  }
-
-  .press-list li{
-    padding:0;
-  }
-
-  .ceo-heading{
-    padding-top: 30px;
-    line-height: 1.2;
-    text-align:left;
-    color:#fff;
-    font-size:30px;
-  }
-  .ceo-layout{
-    max-width: 75vw;
-    margin: 0 auto;
-  }
-  .ceo-text{
-    min-width:100%;
-  
-    font-size: 90%;
-    line-height:1;
-  }
-  
-  .ceo-button > a, .ceo-button:visited , .ceo-button:link{
-    text-align:center;
-    margin-top:10px;
-    border-radius:40px;
-    
-    
-  }
-  
-  .ceo-button:hover , .ceo-button:active{
-    color:#000;
-    background-color: #fff;
-    transition: all .4s;
-    border-radius: 45px;
-  }
-  
-
-
-
-}
-
-
-/*------------------------------------End of Media Query------------------------------*/
 
 
 /*----------------------------PRESS SECTION----------------------------*/
@@ -9196,8 +9132,9 @@ width:20px;
   font-weight:400;
   border-radius:40px;
   border: 1px solid rgb(59, 58, 58);
-  padding: 15px 70px;
+  padding: 1.5rem 7rem;
   color:#fff;
+  line-height: 2;
   
 }
 
@@ -9205,7 +9142,7 @@ width:20px;
   color:#000;
   background-color: #fff;
   transition: all .4s;
-  border-radius: 45px;
+  border-radius: 4.5rem;
 }
 
 
@@ -9236,27 +9173,89 @@ width:20px;
 
 
 
+                    /*-----------Media Query---------------------------------------*/
+
+
+                @media only screen and (max-width:576px){
+                      .pressSection{
+                        width:100%;
+                        margin:0;
+
+                        padding-top:12px;
+                      }
+
+                      .press-list li {
+                      
+                      border-bottom: .5px solid rgb(206, 204, 204);
+                      padding-bottom:10px;
+                      padding-top:10px;
+                      }
+                      .press-list li:first-child{
+                        border-top: .5px solid rgb(206, 204, 204);
+                      }
+
+                      .pressTitle{
+                        font-size:150%;
+                        padding-top:18px;
+                        margin-bottom:10px;
+                        
+                      }
+                      .press-list-item{
+                        line-height: 1.6;
+                      }
+                      .press-list-date{
+                        padding-right:0;
+                      }
+                    
+                      .press-list li{
+                        padding:0;
+                      }
+                    
+                      .ceo-heading{
+                        padding-top: 30px;
+                        line-height: 1.4;
+                        text-align:left;
+                        color:#fff;
+                        font-size:30px;
+                      }
+                      .ceo-layout{
+                        max-width: 75vw;
+                        margin: 0 auto;
+                      }
+                      .ceo-text{
+                        min-width:100%;
+                      
+                        font-size: 100%;
+                        line-height:1.4;
+                      }
+                      
+                      .ceo-button > a, .ceo-button:visited , .ceo-button:link{
+                        text-align:center;
+                        margin-top:10px;
+                        border-radius:20px;
+                        padding:0;
+                        line-height:1.4;
+                        
+                        
+                        
+                      }
+                      
+                      .ceo-button:hover , .ceo-button:active{
+                        color:#000;
+                        background-color: #fff;
+                        transition: all .4s;
+                        border-radius: 20px;
+                      }
+                      
+                    
+                    
+                    
+              }
+                    
+                    
+                    /*------------------------------------End of Media Query------------------------------*/
 
 
 
 
 
-  /* --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px */
-
-  /* .press-button , .press-button:visited , .press-button:link{
-
-  text-align:center;
-  display:inline-block;
-  border-radius:30px;
-  border: 1px solid rgb(59, 58, 58);
-  padding: 15px 70px;
-}
-.press-button:hover  {
-  background-color: rgb(255, 255, 255);
-  color:#000;
-
-
-} */
