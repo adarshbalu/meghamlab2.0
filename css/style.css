@@ -9194,7 +9194,6 @@ width:20px;
                       }
                       .press-list li:first-child{
                         border-top: .5px solid rgb(206, 204, 204);
-                        padding-bottom:4px;
                       }
 
                       .pressTitle{
@@ -9208,7 +9207,7 @@ width:20px;
                         padding-right:0;
                       padding-left:0;
                       padding-top:5px;
-                      padding-bottom:5px;
+                      padding-bottom:3px;
                       }
                       .press-list-date{
                         padding-right:0;
@@ -9245,7 +9244,7 @@ width:20px;
                         text-align:center;
                         margin-top:10px;
                         border-radius:20px;
-                        padding:3.6px;
+                        padding:2px;
                         line-height:1.4;
                         border: 2px solid rgb(2, 2, 2);
                         
@@ -9259,17 +9258,11 @@ width:20px;
                         border-radius: 20px;
                       }
                       
-                    .pressSection  .container{
-                      padding-right:0;
-                      padding-left:0;
-                    }  
+                    
                     
                     
               }
                     
-              @media only screen and (min-width:576px) and (max-width: 768px){}
-              
-             
                     
                     /*------------------------------------End of Media Query------------------------------*/
 
