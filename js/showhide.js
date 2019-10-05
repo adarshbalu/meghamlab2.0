@@ -11,3 +11,16 @@ function checkforblank() {
   }
 
 }
+
+// Submit Button Animation
+
+function subcheck() {
+
+
+    document.getElementById('contact').style.display="none";
+    document.getElementById('thank').style.display="block";
+
+    // window.location.href = "#thank";
+    // swal("Thank You!","For Submitting" "success");
+
+}
