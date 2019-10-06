@@ -1,0 +1,16 @@
+.buisness-section{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: black;
+}
+
+.buisness-content{
+
+}
+
+.buisness-title{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
