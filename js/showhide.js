@@ -17,10 +17,15 @@ function checkforblank() {
 function subcheck() {
 
 
-    document.getElementById('contact').style.display="none";
-    document.getElementById('thank').style.display="block";
+    // document.getElementById('contact').style.display="none";
+    // document.getElementById('thank').style.display="block";
 
     // window.location.href = "#thank";
     // swal("Thank You!","For Submitting" "success");
+    Swal.fire(
+  'Thank You!',
+  'Submitted successfully!',
+  'success'
+)
 
 }
