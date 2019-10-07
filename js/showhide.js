@@ -14,7 +14,7 @@ function checkforblank() {
 
 // Submit Button Animation
 
-function subcheck() {
+// function subcheck() {
 
 
     // document.getElementById('contact').style.display="none";
@@ -22,10 +22,12 @@ function subcheck() {
 
     // window.location.href = "#thank";
     // swal("Thank You!","For Submitting" "success");
-    Swal.fire(
-  'Thank You!',
-  'Submitted successfully!',
-  'success'
-)
 
-}
+
+    //     Swal.fire(
+    //   'Thank You!',
+    //   'Submitted successfully!',
+    //   'success'
+    // )
+    //
+    // }
