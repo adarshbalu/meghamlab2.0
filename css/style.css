@@ -9132,7 +9132,7 @@ width:20px;
 
 
 
-.ceo-button, .ceo-button:visited , .ceo-button:link{
+/* .ceo-button, .ceo-button:visited , .ceo-button:link{
 
 
   display:inline-block;
@@ -9151,7 +9151,7 @@ width:20px;
   background-color: #fff;
   transition: all .4s;
   border-radius: 4.5rem;
-}
+} */
 
 
 .ceo-text{
@@ -9176,10 +9176,17 @@ width:20px;
   width: 100vw;
   margin: 0 auto;
 }
+.ceo-smalll{
+  display:none;
+}
 
+.ceo-small-left{
+order:1;
+}
 
-
-
+.ceo-small-right{
+order:2;
+}
 
                     /*-----------Media Query---------------------------------------*/
 
@@ -9250,7 +9257,7 @@ width:20px;
                         line-height:1.4;
                       }
 
-                      .ceo-button > a, .ceo-button:visited , .ceo-button:link{
+                      /* .ceo-button > a, .ceo-button:visited , .ceo-button:link{
                         text-align:center;
                         margin-top:10px;
                         border-radius:20px;
@@ -9266,12 +9273,35 @@ width:20px;
                         background-color: #fff;
                         transition: all .4s;
                         border-radius: 20px;
-                      }
+                      } */
 
 
 
 
               }
+              @media only screen and (max-width:1203px){
+
+                .ceo-large{
+                  display:none;
+                }
+                .ceo-small{
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:space-between;
+                  align-items:baseline;
+                  align-content:center;
+
+                }
+                .ceo-smalll{
+                  display:block;
+                }
+                .ceo-small h1.ceo-heading{
+                  line-height:1.2;
+                  font-size:160%;
+              }
+                
+              }
+
 
 
                     /*------------------------------------End of Media Query------------------------------*/
