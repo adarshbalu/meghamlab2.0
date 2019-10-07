@@ -303,7 +303,7 @@
               <p class="catch-03">The MeghamLabs Group is an internet-based innovator<br>operating a wide range of sector-leading businesses</p>
               <!-- <p>The MeghamLabs Group has based its business growth on the Internet. The Group is currently engaged in various businesses in the information industry, which include its MeghamLabs Vision Fund and Delta Fund, MeghamLabs, Sprint, Arm
                 and Brightstar Work With Us.</p> -->
-                <p>The process to setup an Affiliate Account is a simple process that begins with you sending us your Name, Email Id, and a link to your Resume.</p>
+                <p>The process to apply as an Affiliate or a Freelancer is a simple process that begins with you sending us your Name, Email Id, and a link to your Resume.</p>
 
 
               <!-- <div class="box-04-02 box-col-2">
@@ -375,7 +375,7 @@
 
 
               <!-- ContactForm - Affiliate-->
-              <div class="block-9">
+          <div class="block-9">
                 <div class="pr-md-5" id="affiliate">
 
                   <form>
@@ -387,9 +387,11 @@
                       <div class="form-group">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                       </div>
+
                       <div class="form-group" id="namediv" >
                         <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
                       </div>
+
                       <div class="form-group" id="resume" >
                         <input type="text" class="form-control" name="resume" placeholder="Your resume's link" id="resume" required>
                       </div>
@@ -398,17 +400,17 @@
                         <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" id="message"></textarea>
                       </div>
 
-                      <div class="form-group">
+                        <div class="form-group">
                         <button type="submit" class="btn btn-primary py-3 px-5" onclick="subcheck()">Sign Up</button>
-                      </div>
-                    </form>
-                  </div>
-                </form>
-              </div>
+                        </div>
+                      </form>
+                    </div>
+                  </form>
+                </div>
 
                   <!-- MapSection -->
 
-                  <div class="pr-md-5" id="Freelancer">
+                  <div class="pr-md-5" id="freelancer">
 
                     <form id="contact">
                     <div class="col-md-6 pr-md-5 " style="padding-top: 100px;">
@@ -432,42 +434,14 @@
                         </div>
 
                         <div class="form-group">
-                          <button type="submit" class="btn btn-primary py-3 px-5" onclick="subcheck()">Sign Up</button>
+                          <button type="submit" class="btn btn-primary py-3 px-5" >Sign Up</button>
                         </div>
                       </form>
                     </div>
                   </form>
                 </div>
 
-              </div>
-
-            <!-- ContactForm - Freelancer -->
-
-
-
-              <!-- <div class="col-md-6 pr-md-5">
-                <form action="#">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Email">
-                  </div>
-                  <div class="form-group">
-                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                  </div>
-                </form>
-
-              </div> -->
-
-
-
-
-
-
+            </div>
 
 
               <!-- RSPEAK_STOP -->
@@ -544,9 +518,16 @@
 
   <!-- footer_code -->
 
-<script src="js/showhide.js">
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
 
-</script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+  <script src="js/freefire.js"></script>
+<script src="js/showhide.js"></script>
+<script src="js/sweetalert2.js"></script>
 </body>
 
 </html>
