@@ -250,8 +250,17 @@
     }    
     
     
-    
-    
-    
 
-    
+
+    .partner-small{
+        display:none;
+    }
+    @media (max-width: 575px){
+        .partner-small{
+            display:block;
+        }
+        .partner-large{
+            display:none;
+            opacity:0;
+        }
+    }
