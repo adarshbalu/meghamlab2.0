@@ -22,15 +22,14 @@
   <link rel="stylesheet" href="css/msgsabt/normalize.css">
   <link rel="stylesheet" href="css/msgsabt/l3-structure.css">
   <link rel="stylesheet" href="css/msgsabt/l3-modules.css">
-  <link rel="stylesheet" href="css/form.css">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <!-- <link rel="stylesheet" href="css/form.css"> -->
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/msgsabt/l3-print.css" media="print">
   <link rel="stylesheet" href="css/msgsabt/index.css" type="text/css" media="all" charset="utf-8">
 
 
 
-
-  <link rel="stylesheet" href="//cdn.group.MeghamLabs/site/set/common/p/css/print.css" media="print">
+  <!-- <link rel="stylesheet" href="//cdn.group.MeghamLabs/site/set/common/p/css/print.css" media="print"> -->
 
 
 
@@ -307,7 +306,7 @@
                 <p>The process to setup an Affiliate Account is a simple process that begins with you sending us your Name, Email Id, and a link to your Resume.</p>
 
 
-              <div class="box-04-02 box-col-2">
+              <!-- <div class="box-04-02 box-col-2">
                 <div class="unit">
                   <div class="inner" style="height: 197px;">
                     <h3 class="hdg" style="height: 44px;"><a href="#">MeghamLabs Vision Fund and Delta Fund Segment</a></h3>
@@ -372,10 +371,80 @@
                     </div>
                   </div>
                 </div>
+              </div> -->
+
+
+              <!-- ContactForm - Affiliate-->
+              <div class="block-9">
+                <div class="pr-md-5" id="affiliate">
+
+                  <form>
+                  <div class="col-md-6 pr-md-5 " style="padding-top: 100px;">
+
+                    <h2 class="mb-3">Become an Affiliate</h2>
+                    <form action="#">
+
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                      </div>
+                      <div class="form-group" id="namediv" >
+                        <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
+                      </div>
+                      <div class="form-group" id="resume" >
+                        <input type="text" class="form-control" name="resume" placeholder="Your resume's link" id="resume" required>
+                      </div>
+
+                      <div class="form-group" id="msgdiv" >
+                        <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" id="message"></textarea>
+                      </div>
+
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary py-3 px-5" onclick="subcheck()">Sign Up</button>
+                      </div>
+                    </form>
+                  </div>
+                </form>
               </div>
 
+                  <!-- MapSection -->
 
-              <!-- ContactForm -->
+                  <div class="pr-md-5" id="Freelancer">
+
+                    <form id="contact">
+                    <div class="col-md-6 pr-md-5 " style="padding-top: 100px;">
+
+                      <h2 class="mb-3">Work as a Freelancer</h2>
+                      <form action="#">
+
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group" id="namediv" >
+                          <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
+                        </div>
+
+                        <div class="form-group" id="resume" >
+                          <input type="text" class="form-control" name="resume" placeholder="Your resume's link" id="resume" required>
+                        </div>
+
+                        <div class="form-group" id="msgdiv">
+                          <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" id="message"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                          <button type="submit" class="btn btn-primary py-3 px-5" onclick="subcheck()">Sign Up</button>
+                        </div>
+                      </form>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+            <!-- ContactForm - Freelancer -->
+
+
+
               <!-- <div class="col-md-6 pr-md-5">
                 <form action="#">
                   <div class="form-group">
@@ -421,6 +490,8 @@
               </ul>
               <!-- /local-nav-area -->
             </div>
+
+
 
             <p class="nav-top"><a href="#top">Back to top</a></p>
 
@@ -473,7 +544,9 @@
 
   <!-- footer_code -->
 
+<script src="js/showhide.js">
 
+</script>
 </body>
 
 </html>
