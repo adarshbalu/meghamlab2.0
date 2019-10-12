@@ -215,7 +215,7 @@
             color:#000;
         }
         .ceo-button-small{
-            margin-top:5px;
+            margin-top:15px !important;
             display:inline-block;
             padding:11px 16px;
         border:2px solid;
@@ -328,3 +328,89 @@
         font-size: 28px;
         font-weight: 600;
         color: #fff; }
+
+
+
+
+
+
+
+        .welcome-hero{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position:relative;
+          background:url(../images/bg_1.jpg)no-repeat;
+          background-size:cover;
+          background-position: center;
+          height:890px;
+      }
+      .welcome-hero:before{
+          position:absolute;
+          content: " ";
+          top:0;
+          left:0;
+          background:#018eb941;
+          width:100%;
+          height:100%;
+      }
+      
+      /*.header-text-area*/
+      .header-text h2 {
+          color: #fff;
+          font-size: 54px;
+          font-weight: 700;
+          text-transform: uppercase;
+          line-height: 1.5;
+      }
+      .header-text h2 span {color: #037fa5;}
+      .header-text p {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 300;
+          text-transform: uppercase;
+          margin: 30px 0 60px;
+          letter-spacing: 1px;
+      }
+      .header-text a {
+          width: 200px;
+          height: 60px;
+          line-height: 60px;
+          border-radius: 3px;
+          text-transform: capitalize;
+          color: #fff;
+          background: #018db9;
+          border:1px solid #018db9;
+          box-shadow: 0 5px 20px rgba(0,0,0,.2);
+          -webkit-transition: 0.3s linear; 
+          -moz-transition: 0.3s linear; 
+          -ms-transition: 0.3s linear; 
+          -o-transition: 0.3s linear; 
+          transition: 0.3s linear;
+      }
+      .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+      /*.header-text-area*/
+
+      
+      .h2s{
+        margin: 0;
+        color:#43485c;
+          font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+      }
+      .ps{
+        margin: 0;
+        line-height:1.8;
+        color:#43485c;
+        font-size:14px;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .as,.as:hover,.as:active,.as:focus {
+        display:inline-block;
+        text-decoration:none;
+        color: #6a708e;
+        font-size:16px;
+        padding:0;
+      }
